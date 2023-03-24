@@ -58,6 +58,8 @@ export default class Registration extends Component {
         Election.abi,
         deployedNetwork && deployedNetwork.address
       );
+            instance.options.address = "0x03d6fD102789c0b87be3C01eA7384ea483582aDC";
+
 
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.

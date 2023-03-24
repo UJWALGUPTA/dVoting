@@ -56,6 +56,7 @@ export default class Voting extends Component {
         Election.abi,
         deployedNetwork && deployedNetwork.address
       );
+      instance.options.address = "0xc6Bc4FbDb15973Ce64BdD02944Caf332082b6ca6";
 
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
